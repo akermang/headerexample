@@ -107,5 +107,9 @@ header>div {
 }
 
 .title {
-    overflow: hidden;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 1.5em;
+  font-weight: 600;
 }
